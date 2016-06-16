@@ -23,7 +23,7 @@ $(document).ready(function(){
 
             $('img').animate({'left':'50px'}, 1000);
             $('.navbar').animate({'backgroundColor': newColor}, 0);
-            $('.list').animate({'opacity':'1'}, 'slow');
+            $('.list').animate({'opacity':'.9'}, 'slow');
             $('.list').css({'color':'white'}, 'slow');
             $('.get').animate({'opacity':'1'}, 'slow');
             $('.get').css({'border':'1px solid black'});
