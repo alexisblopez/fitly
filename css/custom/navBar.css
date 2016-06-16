@@ -18,7 +18,7 @@ class/id {
   background-color: rgba(0,0,0,0);
   border: none;
   padding:10px;
-  opacity: 1;
+  opacity: .9;
 }
 .navbar-right {
   margin: 0;
