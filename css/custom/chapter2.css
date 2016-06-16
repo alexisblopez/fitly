@@ -13,36 +13,38 @@ class/id {
 */
 
 .chapter2 > .container {
-  margin-top: 5%;
+  margin-top: 0%;
 
-  background-color: #f2f2f2;
+  background-color: #c8c8c8;
+  opacity: 1;
+  border-top:5px solid #8becff;
 }
 .window {
-  background-color:#125688;
-  width:25%;
+  width:30%;
 }
 .title {
-  margin-left:20px;
-  margin:0;
+  margin-right:30%;
+  margin-top:80px;
   text-align: right;
 
-  color:white;
-  font-weight: bold;
+  color:#000000;
   padding: 10px;
+  font-size: 36px;
 }
 .image {
   float:left;
   margin-left: 15%;
-  margin-top:3%;
+  margin-top:-115px;
 
   width:25%;
 }
 .paragraph {
   float:right;
   margin-right: 10%;
-  margin-top: 3%;
+  margin-top: 10%;
 
   width:40%;
+  color:#000000;
 }
 img {
   height:100%;

@@ -183,25 +183,47 @@
       <div class="container">
         <!-- Title -->
         <div class="row">
-          <div class="window">
-            <<h1 class="title">For You</h1>
-          </div>
+            <h1 class="title">Simple App</h1>
         </div>
         <!-- End of title -->
 
         <!-- paragraph1 -->
         <div class="row">
           <div class="image">
-            <img src="C:\Users\Juan\Documents\FitU\DesignPh\trainers.jpg">
+            <img src="/images/app.png">
           </div>
           <div class="paragraph">
-            <p>Let's be honest. Price of a personal trainer is expensive,
-              finding a location is difficult, and schedulding is a nightmare!</p>
+            <p>Keeping it simple is key. Focus on your health and let us focus on everything else</p>
           </div>
         </div>
         <!-- End of paragraph1 -->
       </div>
     </div>
     <!-- End of chapter2 -->
+
+    <!-- Start of chapter 3 -->
+    <div class="chapter3">
+      <div class="container">
+        <!-- Title -->
+        <div class="row">
+          <div class="window">
+            <h1 class="title">Be comfortable</h1>
+          </div>
+        </div>
+        <!-- End of title -->
+
+        <!-- paragraph1 -->
+        <div class="row">
+          <div class="paragraph">
+            <p>Connected to trainers that will help you push yourself,
+              but allow you to be comfortable in your surroundings.
+              We know gyms can be intimidating for many different reasons,
+              so let your workout space be a comfortable one</p>
+          </div>
+        </div>
+        <!-- End of paragraph1 -->
+      </div>
+    </div>
+    <!-- End of chapter 3 -->
   </body>
 </html>

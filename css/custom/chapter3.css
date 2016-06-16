@@ -1,4 +1,4 @@
-/* chapter2.css
+/* chapter3.css
 // Last Revised By - Juan Sierra
 // Last Revised Date - 6.9.16
 // Contains ending of main page
@@ -13,18 +13,27 @@ class/id {
 */
 
 .chapter3 > .container {
-    margin-top: 5%;
+    margin-top: 1%;
     background-color: #f2f2f2;
+    border-top: 5px solid #8becff;
 }
 .chapter3 > .container > .row > .window {
   float: right;
-  background-color:#125688;
-  width:25%;
+  background-color:#8becff;
+  width:15%;
 }
 .chapter3 > .container > .row > .window > .title {
-  color:white;
+  color:#000000;
+  margin:0;
   text-align: left;
   padding: 10px;
 
-  font-weight: bold;
+  font-size: 24px;
+}
+.paragraph {
+  float:left;
+  margin-left: 10%;
+  margin-top: 10%;
+
+  width:40%;
 }
