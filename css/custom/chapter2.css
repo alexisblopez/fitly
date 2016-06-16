@@ -1,0 +1,53 @@
+/* chapter2.css
+// Last Revised By - Juan Sierra
+// Last Revised Date - 6.9.16
+// Contains body of main page
+*/
+
+/*
+class/id {
+  //location
+
+  //Style
+}
+*/
+
+.chapter2 > .container {
+  margin-top: 5%;
+
+  background-color: #f2f2f2;
+}
+.window {
+  background-color:#125688;
+  width:25%;
+}
+.title {
+  margin-left:20px;
+  margin:0;
+  text-align: right;
+
+  color:white;
+  font-weight: bold;
+  padding: 10px;
+}
+.image {
+  float:left;
+  margin-left: 15%;
+  margin-top:3%;
+
+  width:25%;
+}
+.paragraph {
+  float:right;
+  margin-right: 10%;
+  margin-top: 3%;
+
+  width:40%;
+}
+img {
+  height:100%;
+  width:100%;
+}
+p {
+  font-size: 32px;
+}

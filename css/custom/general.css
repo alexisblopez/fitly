@@ -1,0 +1,33 @@
+/* general.css
+// Last Revised By - Juan Sierra
+// Last Revised Date - 6.9.16
+// General css styles for all classes or ids
+*/
+
+/*
+class/id {
+  //location
+
+  //Style
+}
+*/
+
+body {
+  overflow: auto;
+  padding:0px;
+  margin:0px;
+}
+.container {
+  margin: 0;
+
+  padding: 0;
+  width:100%;
+  height:100vh;
+}
+.row {
+  margin: 0;
+}
+.modal-open {
+  overflow: auto;
+  padding-right: 0px !important;
+}

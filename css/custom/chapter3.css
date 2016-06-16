@@ -1,0 +1,30 @@
+/* chapter2.css
+// Last Revised By - Juan Sierra
+// Last Revised Date - 6.9.16
+// Contains ending of main page
+*/
+
+/*
+class/id {
+  //location
+
+  //Style
+}
+*/
+
+.chapter3 > .container {
+    margin-top: 5%;
+    background-color: #f2f2f2;
+}
+.chapter3 > .container > .row > .window {
+  float: right;
+  background-color:#125688;
+  width:25%;
+}
+.chapter3 > .container > .row > .window > .title {
+  color:white;
+  text-align: left;
+  padding: 10px;
+
+  font-weight: bold;
+}

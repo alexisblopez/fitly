@@ -1,0 +1,10 @@
+/* fontFace.css
+// Last Revised By - Juan Sierra
+// Last Revised Date - 6.9.16
+// Additional Fonts
+*/
+
+@font-face {
+  font-family: 'raleway';
+  src: url('\raleway\webfonts\raleway_thin-webfont.woff');
+}

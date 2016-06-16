@@ -1,0 +1,89 @@
+/* navBar.css
+// Last Revised By - Juan Sierra
+// Last Revised date - 6.13.16
+// Navigation Bar
+*/
+
+/*
+class/id {
+  //location
+
+  //Style
+}
+*/
+
+.navbar {
+  margin: 0px;
+
+  background-color: rgba(255,255,255,0);
+  border: none;
+  padding:10px;
+  opacity: 1;
+}
+.navbar-right {
+  margin: 0;
+}
+.nav > li.dropdown.open {
+  position:static;
+}
+.nav > li.dropdown.open .dropdown-menu {
+  display: table;
+  text-align: center;
+
+  background-color: #125688;
+  border-top: 2px solid #FFFFFF;
+  border-radius: 0px;
+  border-left: none;
+  font-size: 26px;
+  width:100%;
+  height:65px;
+}
+.navbar-default .navbar-nav > li > .explore,
+.navbar-default .navbar-nav > li > .explore:focus,
+.navbar-default .navbar-nav > li > .explore:hover {
+  left:75%;
+
+  font-size: 24px;
+  color:#000000;
+  opacity: 0;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #125688;
+}
+
+.dropdown-menu > li {
+  display: inline-block;
+}
+.dropdown-menu > li > a {
+  margin-top:5px;
+
+  color:#FFFFFF;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background-color: #125688;
+  color:#FFFFFF;
+}
+.get {
+  position: static;
+  margin-right:30px;
+  margin-top:1px;
+  padding: 8px;
+
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 20px;
+  color:#000000;
+  opacity: 0;
+}
+#logo {
+  left: 50%;
+  margin-left: -54px;
+  position: absolute;
+  top: 0;
+
+  width: auto;
+}
