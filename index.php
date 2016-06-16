@@ -109,17 +109,12 @@
         <div class="container-fluid">
           <a class="navbar-brand"><img id="logo" src="/images/fitly.png"></a>
           <!-- Dropdown menu -->
-          <ul class="nav navbar-nav" >
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle explore" data-toggle="dropdown">Explore<span class="caret"></span></a>
-              <ul class="dropdown-menu list-inline" role="menu">
-                <li><a href="#">News</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Activites</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">About Us</a></li>
-              </ul>
-            </li>
+          <ul class="nav navbar-nav list" >
+            <li><a>News</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Location</a></li>
+            <li><a>Activies</a></li>
+            <li><a>About Us</a></li>
           </ul>
           <!-- End of dropdown menu -->
           <ul class="nav navbar-nav navbar-right" >
