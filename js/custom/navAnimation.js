@@ -1,6 +1,6 @@
 /* navAnimation.js
 // Last Revised By - Juan Sierra
-// Last Revised Date - 6.13.16
+// Last Revised Date - 6.16.16
 // Animation for navigation bar
 */
 
@@ -15,7 +15,6 @@ $(document).ready(function(){
     var end_color = new $.Color( 'rgba(0,0,0, .9)' ); ;
     $(window).scroll(function() {
         scroll_pos = $(this).scrollTop();
-        console.log(scroll_pos);
         if(scroll_pos >= animation_begin && scroll_pos <= animation_end) {
             var percentScrolled = scroll_pos / (animation_end - animation_begin);
             var alpha = alpha_begin + ((alpha_end - alpha_begin) * percentScrolled);

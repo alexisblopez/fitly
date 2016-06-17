@@ -91,12 +91,19 @@
 
   <!-- Custom css -->
   <link rel="stylesheet" href="css/custom/general.css">
-  <link rel="stylesheet" href="css/custom/popup.css">
   <link rel="stylesheet" href="css/custom/navBar.css">
-  <link rel="stylesheet" href="css/custom/chapter1.css">
-  <link rel="stylesheet" href="css/custom/chapter2.css">
-  <link rel="stylesheet" href="css/custom/chapter3.css">
+  <link rel="stylesheet" href="css/custom/welcome.css">
+  <link rel="stylesheet" href="css/custom/popup.css">
+  <link rel="stylesheet" href="css/custom/simpleApp.css">
+  <link rel="stylesheet" href="css/custom/comfortable.css">
+  <link rel="stylesheet" href="css/custom/anywhere.css">
+  <link rel="stylesheet" href="css/custom/motivated.css">
+  <link rel="stylesheet" href="css/custom/footer.css">
+
   <link rel="stylesheet" href="fonts/custom/fontFace.css">
+
+
+
 
   <!-- Custom Javascript -->
   <script src="js/custom/navAnimation.js"></script>
@@ -128,11 +135,12 @@
   </div>
   <!-- End of Navigation Bar -->
 
-    <!--Chapter 1 -->
-    <div class = "chapter1">
-      <div class= "container">
+    <!--Welcome -->
+    <div class ="welcome">
+      <div class="container">
         <div class="row">
-          <h1 class = "background-text">FITNESS CENTERED AROUND YOU</h1>
+          <h1 class="background-text">Be Motivated. Be Anywhere. Be Comftorable.</h1>
+          <h2 class="background-text2"> Be You. </h1>
         </div>
         <div class="row">
           <button class="getStarted" data-toggle="modal" data-target="#signUp">
@@ -176,54 +184,112 @@
         <!--End of Popup Signup-->
       </div>
     </div>
-    <!-- End of chapter 1 -->
+    <!-- End of welcome -->
 
-    <!-- Start of chapter 2 -->
-    <div class="chapter2">
+    <!-- Start of Simple App -->
+    <div class="simpleApp">
       <div class="container">
-        <!-- Title -->
         <div class="row">
-            <h1 class="title">Simple App</h1>
-        </div>
-        <!-- End of title -->
-
-        <!-- paragraph1 -->
-        <div class="row">
-          <div class="image">
+          <!-- image -->
+          <div class="app-image">
             <img src="/images/app.png">
           </div>
-          <div class="paragraph">
-            <p>Keeping it simple is key. Focus on your health and let us focus on everything else</p>
+          <!-- End of image -->
+
+          <!-- App text -->
+          <div class="app-body">
+            <h1 class="app-title">Simple App.</h1>
+            <div class="app-paragraph">
+              <p>Keeping it simple is key. Focus on your health and let us focus on everything else</p>
+            </div>
           </div>
+          <!-- End of App text -->
         </div>
-        <!-- End of paragraph1 -->
       </div>
     </div>
-    <!-- End of chapter2 -->
+    <!-- End of Simple App -->
 
-    <!-- Start of chapter 3 -->
-    <div class="chapter3">
+    <!-- Start of Be Comfortable -->
+    <div class="comfortable">
       <div class="container">
-        <!-- Title -->
         <div class="row">
-          <div class="window">
-            <h1 class="title">Be comfortable</h1>
+          <!-- Start of comftorable text -->
+          <div class="comf-body">
+            <h1 class="comf-title">Be comfortable.</h1>
+            <div class="comf-paragraph">
+              <p>Connected to trainers that will help you push yourself,
+                but allow you to be comfortable in your surroundings.
+                We know gyms can be intimidating for many different reasons,
+                so let your workout space be a comfortable one</p>
+            </div>
           </div>
-        </div>
-        <!-- End of title -->
+          <!-- End of comfortable text -->
 
-        <!-- paragraph1 -->
-        <div class="row">
-          <div class="paragraph">
-            <p>Connected to trainers that will help you push yourself,
-              but allow you to be comfortable in your surroundings.
-              We know gyms can be intimidating for many different reasons,
-              so let your workout space be a comfortable one</p>
+          <!-- Start of image -->
+          <div class="comf-image">
+            <img src="/images/app.png">
           </div>
+          <!-- End of image -->
         </div>
-        <!-- End of paragraph1 -->
       </div>
     </div>
-    <!-- End of chapter 3 -->
+    <!-- End of Be Comfortable -->
+
+    <!-- Start of Be Anywhere -->
+    <div class="anywhere">
+      <div class="container">
+        <div class="row">
+          <!-- image -->
+          <div class="anywhere-image">
+            <img src="/images/app.png">
+          </div>
+          <!-- End of image -->
+
+          <!-- Anywhere text -->
+          <div class="anywhere-body">
+            <h1 class="anywhere-title">Be Anywhere.</h1>
+            <div class="anywhere-paragraph">
+              <p>Why settle yourself in just one location? Workout inside or outside. Run on a track or by the lake...</p>
+            </div>
+          </div>
+          <!-- End of Anywhere text -->
+        </div>
+      </div>
+    </div>
+    <!-- End of Be Anywhere -->
+
+    <!-- Start of  Be Motivated-->
+    <div class="motivated">
+      <div class="container">
+        <div class="row">
+          <!-- Start of motivated text -->
+          <div class="motiv-body">
+            <h1 class="motiv-title">Be Motivated.</h1>
+            <div class="motiv-paragraph">
+              <p>Connected to trainers that will help you push yourself,
+                but allow you to be comfortable in your surroundings.
+                We know gyms can be intimidating for many different reasons,
+                so let your workout space be a comfortable one</p>
+            </div>
+          </div>
+          <!-- End of motivated text -->
+
+          <!-- Start of image -->
+          <div class="motiv-image">
+            <img src="/images/app.png">
+          </div>
+          <!-- End of image -->
+        </div>
+      </div>
+    </div>
+    <!-- End of motivated -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          teddsklfjsadlkfjl;kasdjflsdkjfljdslfjadslkfjlaksjdflkasjdfldjs
+        </div>
+      </div>
+    </div>
   </body>
 </html>

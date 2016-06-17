@@ -1,0 +1,53 @@
+/* comftorable.css
+// Last Revised By - Juan Sierra
+// Last Revised Date - 6.17.16
+// Contains ending of main page
+//
+// ***************** Revision ************************
+// Changed file name and class names.
+// Added, removed, and edited classes
+*/
+
+/*
+class/id {
+  //location
+
+  //Style
+}
+*/
+
+.comfortable > .container {
+    margin-top: 1%;
+    background-color: #f2f2f2;
+    border-top: 5px solid #8becff;
+}
+.comf-image {
+  float:right;
+  margin-right: 15%;
+
+  width:25%;
+}
+.comf-body {
+  float:left;
+
+  width:60%;
+}
+.comf-title {
+  margin-top:80px;
+  text-align: center;
+
+  color:#000000;
+  font-family: raleway;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px;
+}
+.comf-paragraph {
+  margin-top: 10%;
+  text-align: center;
+
+  color:#000000;
+  font-family: raleway;
+  font-size: 34px;
+  font-weight: bold;
+}

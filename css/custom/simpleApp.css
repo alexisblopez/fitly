@@ -1,0 +1,53 @@
+/* simpleApp.css
+// Last Revised By - Juan Sierra
+// Last Revised Date - 6.17.16
+// Contains body of main page
+//
+// ***************** Revision ************************
+// Changed file name, class names, added, removed and modified classes
+*/
+
+/*
+class/id {
+  //location
+
+  //Style
+}
+*/
+
+.simpleApp > .container {
+  margin-top: 1%;
+
+  background-color: #FFFFFF;
+  border-top:5px solid #8becff;
+}
+.app-image {
+  float:left;
+  margin-left: 15%;
+
+  width:25%;
+}
+.app-body {
+  float:right;
+
+  width:60%;
+}
+.app-title {
+  margin-top:80px;
+  text-align: center;
+
+  color:#000000;
+  font-family: raleway;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px;
+}
+.app-paragraph {
+  margin-top: 10%;
+  text-align: center;
+
+  color:#000000;
+  font-family: raleway;
+  font-size: 34px;
+  font-weight: bold;
+}

@@ -17,6 +17,10 @@ body {
   padding:0px;
   margin:0px;
 }
+img {
+  height:100%;
+  width:100%;
+}
 .container {
   margin: 0;
 
