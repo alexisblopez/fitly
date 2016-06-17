@@ -24,6 +24,8 @@ class/id {
 
   color:  white;
   font-size: 36px;
+  font-family: raleway;
+  font-weight: bold;
 }
 .getStarted {
   left:50%;

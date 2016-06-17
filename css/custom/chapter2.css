@@ -30,6 +30,8 @@ class/id {
   color:#000000;
   padding: 10px;
   font-size: 36px;
+  font-family: raleway;
+  font-weight: bold;
 }
 .image {
   float:left;
@@ -45,6 +47,8 @@ class/id {
 
   width:40%;
   color:#000000;
+  font-family: raleway;
+  font-weight: bold;
 }
 img {
   height:100%;
