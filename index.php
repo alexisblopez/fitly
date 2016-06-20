@@ -29,7 +29,9 @@
         }
         catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage());}
         $row = $stmt->fetch();
-        if($row){ die("This email address is already registered"); }
+        if($row){ 
+          die("This email address is already registered");
+        }
 
         // Add row to database
         $query = "

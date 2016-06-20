@@ -14,7 +14,7 @@ class/id {
 
 .navbar {
   margin: 0px;
-  
+
   background-color: rgba(0,0,0,0);
   border: none;
   padding:10px;
@@ -57,4 +57,5 @@ class/id {
   top: 0;
 
   width: auto;
+  opacity: 1;
 }
