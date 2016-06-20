@@ -16,9 +16,10 @@ class/id {
 */
 .app-image {
   float:left;
-  margin-left: 15%;
+  margin-top:5%;
+  margin-left: 10%;
 
-  width:25%;
+  width:30%;
 }
 .app-body {
   float:right;

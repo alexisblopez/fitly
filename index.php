@@ -29,7 +29,7 @@
         }
         catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage());}
         $row = $stmt->fetch();
-        if($row){ 
+        if($row){
           die("This email address is already registered");
         }
 
@@ -192,7 +192,7 @@
         <div class="row">
           <!-- image -->
           <div class="app-image">
-            <img src="/images/app.png">
+            <img src="/images/oneplus.jpg">
           </div>
           <!-- End of image -->
 
