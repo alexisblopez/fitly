@@ -26,17 +26,15 @@ class/id {
   text-align: center;
 
   color:  white;
-  font-size: 36px;
-  font-family: raleway;
-  font-weight: bold;
+  font-size: 60px;
+  font-family: fester;
 }
 .background-text2 {
   text-align: center;
 
   color:  white;
-  font-size: 36px;
-  font-family: raleway;
-  font-weight: bold;
+  font-size: 48px;
+  font-family: fester;
 }
 .getStarted {
   left:50%;

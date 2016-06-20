@@ -6,5 +6,18 @@
 
 @font-face {
   font-family: 'raleway';
-  src: url('\raleway\webfonts\raleway_thin-webfont.woff');
+  src: url('\raleway/webfonts/raleway_thin-webfont.woff');
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url('\opensans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: "josans";
+    src: url('\josans/JosefinSans-Light.ttf');
+}
+@font-face {
+    font-family: "fester";
+    src: url('\fester/FesterMedium.otf');
 }
