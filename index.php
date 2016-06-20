@@ -92,22 +92,20 @@
   <!-- Custom css -->
   <link rel="stylesheet" href="css/custom/general.css">
   <link rel="stylesheet" href="css/custom/navBar.css">
-  <link rel="stylesheet" href="css/custom/welcome.css">
   <link rel="stylesheet" href="css/custom/popup.css">
+
+  <link rel="stylesheet" href="css/custom/header.css">
   <link rel="stylesheet" href="css/custom/simpleApp.css">
   <link rel="stylesheet" href="css/custom/comfortable.css">
   <link rel="stylesheet" href="css/custom/anywhere.css">
   <link rel="stylesheet" href="css/custom/motivated.css">
+  <link rel="stylesheet" href="css/custom/fitly.css">
   <link rel="stylesheet" href="css/custom/footer.css">
 
   <link rel="stylesheet" href="fonts/custom/fontFace.css">
 
-
-
-
   <!-- Custom Javascript -->
   <script src="js/custom/navAnimation.js"></script>
-
 </head>
   <body>
     <!-- Navigation Bar -->
@@ -135,12 +133,12 @@
   </div>
   <!-- End of Navigation Bar -->
 
-    <!--Welcome -->
+    <!-- Header -->
     <div class ="welcome">
       <div class="container">
         <div class="row">
-          <h1 class="background-text">Be Motivated. Be Anywhere. Be Comftorable.</h1>
-          <h2 class="background-text2"> Be You. </h1>
+          <h1 class="background-text">Be Motivated. Be Anywhere. Be Comfortable.</h1>
+          <h2 class="background-text2"> Be fitly. </h1>
         </div>
         <div class="row">
           <button class="getStarted" data-toggle="modal" data-target="#signUp">
@@ -184,7 +182,7 @@
         <!--End of Popup Signup-->
       </div>
     </div>
-    <!-- End of welcome -->
+    <!-- End of header -->
 
     <!-- Start of Simple App -->
     <div class="simpleApp">
@@ -212,24 +210,17 @@
     <!-- Start of Be Comfortable -->
     <div class="comfortable">
       <div class="container">
+        <div class="comf-image"></div>
         <div class="row">
           <!-- Start of comftorable text -->
-          <div class="comf-body">
-            <h1 class="comf-title">Be comfortable.</h1>
-            <div class="comf-paragraph">
-              <p>Connected to trainers that will help you push yourself,
+          <h1 class="comf-title">Be comfortable.</h1>
+          <div class="comf-paragraph">
+            <p>Connect to trainers that will help you push yourself,
                 but allow you to be comfortable in your surroundings.
                 We know gyms can be intimidating for many different reasons,
-                so let your workout space be a comfortable one</p>
-            </div>
+                so let your workout space be a comfortable one.</p>
           </div>
           <!-- End of comfortable text -->
-
-          <!-- Start of image -->
-          <div class="comf-image">
-            <img src="/images/app.png">
-          </div>
-          <!-- End of image -->
         </div>
       </div>
     </div>
@@ -261,9 +252,9 @@
     <!-- Start of  Be Motivated-->
     <div class="motivated">
       <div class="container">
+        <div class="motiv-image"></div>
         <div class="row">
           <!-- Start of motivated text -->
-          <div class="motiv-body">
             <h1 class="motiv-title">Be Motivated.</h1>
             <div class="motiv-paragraph">
               <p>Connected to trainers that will help you push yourself,
@@ -271,18 +262,37 @@
                 We know gyms can be intimidating for many different reasons,
                 so let your workout space be a comfortable one</p>
             </div>
-          </div>
           <!-- End of motivated text -->
-
-          <!-- Start of image -->
-          <div class="motiv-image">
-            <img src="/images/app.png">
-          </div>
-          <!-- End of image -->
         </div>
       </div>
     </div>
     <!-- End of motivated -->
+
+    <!-- Start of Be Fitly -->
+    <div class="fitly">
+      <div class="container">
+        <div class="row">
+          <!-- image -->
+          <div class="fitly-image">
+            <img src="/images/app.png">
+          </div>
+          <!-- End of image -->
+
+          <!-- fitly text -->
+          <div class="fitly-body">
+            <h1 class="fitly-title">Be Fitly.</h1>
+            <div class="fitly-paragraph">
+              <p>It's pretty straightfoward, be yourself.
+                Workout when you want, where you want and with who yoo want.
+                Dont limit yourself to one gym, to one trainer, or to one time.
+                Change the way fitness is done. Make it personal </p>
+            </div>
+          </div>
+          <!-- End of Anywhere text -->
+        </div>
+      </div>
+    </div>
+    <!-- End of Be Anywhere -->
 
     <div class="footer">
       <div class="container">

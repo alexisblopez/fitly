@@ -15,38 +15,47 @@ class/id {
   //Style
 }
 */
+.comf-image {
+  position: absolute;
 
+  background: url('/./images/comft.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-filter: blur(2px) grayscale(100%) brightness(30%);
+  -moz-filter: blur(2px) grayscale(100%) brightness(30%);
+  -o-filter: blur(2px) grayscale(100%) brightness(30%);
+  -ms-filter: blur(2px) grayscale(100%) brightness(30%);
+  filter: blur(2px) grayscale(100%) brightness(30%);
+
+  width:100%;
+  height:100vh;
+  z-index: -1;
+}
 .comfortable > .container {
     margin-top: 1%;
-    background-color: #f2f2f2;
     border-top: 5px solid #8becff;
-}
-.comf-image {
-  float:right;
-  margin-right: 15%;
 
-  width:25%;
-}
-.comf-body {
-  float:left;
-
-  width:60%;
+    z-index:0;
 }
 .comf-title {
   margin-top:80px;
   text-align: center;
 
-  color:#000000;
+  color:#FFFFFF;
   font-family: raleway;
   font-size: 36px;
   font-weight: bold;
   padding: 10px;
 }
 .comf-paragraph {
-  margin-top: 10%;
+  margin-top: 5%;
+  width:50%;
   text-align: center;
+  margin-left: 330px;
 
-  color:#000000;
+  color:#FFFFFF;
   font-family: raleway;
   font-size: 34px;
   font-weight: bold;

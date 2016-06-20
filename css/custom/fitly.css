@@ -1,10 +1,10 @@
-/* Anywhere.css
+/* fitly.css
 // Last Revised By - Juan Sierra
-// Last Revised Date - 6.17.16
-// Contains body of Be Anywhere
+// Last Revised Date - 6.18.16
+// Contains body of main page
 //
 // ***************** Revision ************************
-//
+// Changed file name, class names, added, removed and modified classes
 */
 
 /*
@@ -14,22 +14,21 @@ class/id {
   //Style
 }
 */
-.anywhere > .container {
-
+.fitly > .container {
   border-top:5px solid #8becff;
 }
-.anywhere-image {
+.fitly-image {
   float:left;
   margin-left: 15%;
 
   width:25%;
 }
-.anywhere-body {
+.fitly-body {
   float:right;
 
   width:60%;
 }
-.anywhere-title {
+.fitly-title {
   margin-top:80px;
   text-align: center;
 
@@ -39,7 +38,7 @@ class/id {
   font-weight: bold;
   padding: 10px;
 }
-.anywhere-paragraph {
+.fitly-paragraph {
   margin-top: 10%;
   text-align: center;
 
