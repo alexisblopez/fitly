@@ -15,14 +15,14 @@ class/id {
 }
 */
 .app-image {
-  float:left;
+  float:right;
   margin-top:5%;
   margin-left: 10%;
 
   width:30%;
 }
 .app-body {
-  float:right;
+  float:left;
 
   width:60%;
 }
