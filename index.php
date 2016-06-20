@@ -137,8 +137,8 @@
     <div class ="welcome">
       <div class="container">
         <div class="row">
-          <h1 class="background-text">Train differently. </h1>
-          <h2 class="background-text2">  Train with fitly.</h1>
+          <h1 class="background-text">Train differently</h1>
+          <h2 class="background-text2">  Train with fitly</h1>
         </div>
         <div class="row">
           <button class="getStarted" data-toggle="modal" data-target="#signUp">
