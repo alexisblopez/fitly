@@ -215,12 +215,9 @@
         <div class="comf-image"></div>
         <div class="row">
           <!-- Start of comftorable text -->
-          <h1 class="comf-title">Be comfortable.</h1>
+          <h1 class="comf-title">Redefining 'personal'</h1>
           <div class="comf-paragraph">
-            <p>Connect to trainers that will help you push yourself,
-                but allow you to be comfortable in your surroundings.
-                We know gyms can be intimidating for many different reasons,
-                so let your workout space be a comfortable one.</p>
+            <p>The days of searching endlessly for the best trainers in your area are over. With Fitly, you can find the trainer you’re looking for in just about any field of fitness, so no matter what you’re interested in, there’s a trainer just around the corner. </p>
           </div>
           <!-- End of comfortable text -->
         </div>
@@ -240,9 +237,10 @@
 
           <!-- Anywhere text -->
           <div class="anywhere-body">
-            <h1 class="anywhere-title">Be Anywhere.</h1>
+            <h1 class="anywhere-title">Why settle with one location?</h1>
             <div class="anywhere-paragraph">
-              <p>Why settle yourself in just one location? Workout inside or outside. Run on a track or by the lake...</p>
+              <p>    
+                You decide where you want to meet your trainer - your home, the park, etc. Wherever you’re comfortable, your trainer will come to you!</p>
             </div>
           </div>
           <!-- End of Anywhere text -->
@@ -259,10 +257,7 @@
           <!-- Start of motivated text -->
             <h1 class="motiv-title">Be Motivated.</h1>
             <div class="motiv-paragraph">
-              <p>Connected to trainers that will help you push yourself,
-                but allow you to be comfortable in your surroundings.
-                We know gyms can be intimidating for many different reasons,
-                so let your workout space be a comfortable one</p>
+              <p>With fitly, you’ll be connected to trainers that will help you push yourself, but allow you to be comfortable in your surroundings. We know gyms can be intimidating for many different reasons, so let your workout space be a comfortable one. </p>
             </div>
           <!-- End of motivated text -->
         </div>
