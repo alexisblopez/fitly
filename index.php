@@ -106,6 +106,8 @@
 
   <link rel="stylesheet" href="fonts/custom/fontFace.css">
 
+
+
   <!-- Custom Javascript -->
   <script src="js/custom/navAnimation.js"></script>
 </head>
@@ -114,21 +116,20 @@
     <div class="row">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand"><img id="logo" src="/images/fitly.png"></a>
+          <a href="#"><img id="logo" src="/images/fitly.png"></a>
           <!-- Dropdown menu -->
-          <ul class="nav navbar-nav list" >
-            <li><a>News</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Location</a></li>
-            <li><a>Activies</a></li>
-            <li><a>About Us</a></li>
-          </ul>
-          <!-- End of dropdown menu -->
-          <ul class="nav navbar-nav navbar-right" >
-            <li class="dropdown">
-              <button class="get" data-toggle="modal" data-target="#signUp">Get Started</button>
-            </li>
-          </ul>
+          <nav>
+            <a id="menu-icon"></a>
+            <ul class="nav navbar-nav list" >
+              <li><a>News</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Location</a></li>
+              <li><a>Activies</a></li>
+              <li><a>About Us</a></li>
+              <li class="button"><button class="get" data-toggle="modal" data-target="#signUp">Get Started</button></li>
+            </ul>
+            <!-- End of dropdown menu -->
+          </nav>
         </div>
       </nav>
     </div>
@@ -190,12 +191,6 @@
     <div class="simpleApp">
       <div class="container">
         <div class="row">
-          <!-- image -->
-          <div class="app-image">
-            <img src="/images/oneplus.jpg">
-          </div>
-          <!-- End of image -->
-
           <!-- App text -->
           <div class="app-body">
             <h1 class="app-title">Simple App.</h1>
@@ -204,6 +199,11 @@
             </div>
           </div>
           <!-- End of App text -->
+          <!-- image -->
+          <div class="app-image">
+            <img src="/images/oneplus.jpg">
+          </div>
+          <!-- End of image -->
         </div>
       </div>
     </div>
@@ -214,10 +214,12 @@
       <div class="container">
         <div class="comf-image"></div>
         <div class="row">
-          <!-- Start of comftorable text -->
-          <h1 class="comf-title">Redefining 'personal'</h1>
-          <div class="comf-paragraph">
-            <p>The days of searching endlessly for the best trainers in your area are over. With Fitly, you can find the trainer you’re looking for in just about any field of fitness, so no matter what you’re interested in, there’s a trainer just around the corner. </p>
+          <div class="comf-body">
+            <!-- Start of comftorable text -->
+            <h1 class="comf-title">Redefining 'personal'</h1>
+            <div class="comf-paragraph">
+              <p>The days of searching endlessly for the best trainers in your area are over. With Fitly, you can find the trainer you’re looking for in just about any field of fitness, so no matter what you’re interested in, there’s a trainer just around the corner. </p>
+            </div>
           </div>
           <!-- End of comfortable text -->
         </div>
@@ -229,21 +231,21 @@
     <div class="anywhere">
       <div class="container">
         <div class="row">
+          <!-- Anywhere text -->
+          <div class="anywhere-body">
+            <h1 class="anywhere-title">Why settle with one location?</h1>
+            <div class="anywhere-paragraph">
+              <p>
+                You decide where you want to meet your trainer - your home, the park, etc. Wherever you’re comfortable, your trainer will come to you!</p>
+            </div>
+          </div>
+          <!-- End of Anywhere text -->
+
           <!-- image -->
           <div class="anywhere-image">
             <img src="/images/app.png">
           </div>
           <!-- End of image -->
-
-          <!-- Anywhere text -->
-          <div class="anywhere-body">
-            <h1 class="anywhere-title">Why settle with one location?</h1>
-            <div class="anywhere-paragraph">
-              <p>    
-                You decide where you want to meet your trainer - your home, the park, etc. Wherever you’re comfortable, your trainer will come to you!</p>
-            </div>
-          </div>
-          <!-- End of Anywhere text -->
         </div>
       </div>
     </div>
@@ -255,10 +257,12 @@
         <div class="motiv-image"></div>
         <div class="row">
           <!-- Start of motivated text -->
+          <div class="motiv-body">
             <h1 class="motiv-title">Be Motivated.</h1>
             <div class="motiv-paragraph">
               <p>With fitly, you’ll be connected to trainers that will help you push yourself, but allow you to be comfortable in your surroundings. We know gyms can be intimidating for many different reasons, so let your workout space be a comfortable one. </p>
             </div>
+          </div>
           <!-- End of motivated text -->
         </div>
       </div>
@@ -269,12 +273,6 @@
     <div class="fitly">
       <div class="container">
         <div class="row">
-          <!-- image -->
-          <div class="fitly-image">
-            <img src="/images/app.png">
-          </div>
-          <!-- End of image -->
-
           <!-- fitly text -->
           <div class="fitly-body">
             <h1 class="fitly-title">Be Fitly.</h1>
@@ -286,6 +284,12 @@
             </div>
           </div>
           <!-- End of Anywhere text -->
+          
+          <!-- image -->
+          <div class="fitly-image">
+            <img src="/images/app.png">
+          </div>
+          <!-- End of image -->
         </div>
       </div>
     </div>

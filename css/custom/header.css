@@ -14,41 +14,87 @@ class/id {
   //Style
 }
 */
+@media (min-width: 992px) {
+  .welcome {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
+    background: -o-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .background-text {
+    margin-top: 19%;
+    text-align: center;
 
-.welcome {
-  background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    color:  white;
+    font-size: 60px;
+    font-family: fester;
+  }
+  .background-text2 {
+    text-align: center;
+
+    color:  white;
+    font-size: 48px;
+    font-family: fester;
+  }
+  .getStarted {
+    left:50%;
+    margin-left: -115px;
+    margin-top: 11%;
+    position: absolute;
+
+    background-color: transparent;
+    border:1px solid #8becff;
+    border-radius:4px;
+    color:#8becff;
+    font-size:24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    padding:5px 50px 5px 50px;
+  }
 }
-.background-text {
-  margin-top: 19%;
-  text-align: center;
 
-  color:  white;
-  font-size: 60px;
-  font-family: fester;
-}
-.background-text2 {
-  text-align: center;
+@media screen and (max-width: 767px) {
+  .welcome {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
+    background: -o-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('/./images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  color:  white;
-  font-size: 48px;
-  font-family: fester;
-}
-.getStarted {
-  left:50%;
-  margin-left: -115px;
-  margin-top: 11%;
-  position: absolute;
+  }
+  .background-text {
+    margin-top:85%;
+    text-align: center;
 
-  background-color: transparent;
-  border:1px solid #8becff;
-  border-radius:4px;
-  color:#8becff;
-  font-size:24px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  opacity: 1;
-  padding:5px 50px 5px 50px;
+    color:  white;
+    font-size: 32px;
+    font-family: fester;
+  }
+  .background-text2 {
+    text-align: center;
+
+    color:  white;
+    font-size: 42px;
+    font-family: fester;
+  }
+  .getStarted {
+    left:50%;
+    margin-left: -115px;
+    margin-top: 30%;
+    position: absolute;
+
+    background-color: transparent;
+    border:1px solid #8becff;
+    border-radius:4px;
+    color:#8becff;
+    font-size:24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    padding:5px 50px 5px 50px;
+  }
 }

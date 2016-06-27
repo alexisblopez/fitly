@@ -1,47 +1,72 @@
 /* simpleApp.css
-// Last Revised By - Juan Sierra
-// Last Revised Date - 6.17.16
 // Contains body of main page
 //
-// ***************** Revision ************************
-// Changed file name, class names, added, removed and modified classes
+//
+// class/id {
+    //location
+
+    //Style
+   }
 */
 
-/*
-class/id {
-  //location
+@media (min-width: 992px) {
+  .app-image {
+    float:right;
+    margin-top:3%;
+    margin-left: 10%;
 
-  //Style
+    width:30%;
+  }
+  .app-body {
+    float:left;
+
+    width:60%;
+  }
+  .app-title {
+    margin-top:80px;
+    text-align: center;
+
+    color:#000000;
+    font-family: raleway;
+    font-size: 36px;
+    padding: 10px;
+  }
+  .app-paragraph {
+    margin-top: 10%;
+    text-align: center;
+
+    color:#000000;
+    font-family: raleway;
+    font-size: 34px;
+  }
 }
-*/
-.app-image {
-  float:right;
-  margin-top:5%;
-  margin-left: 10%;
 
-  width:30%;
-}
-.app-body {
-  float:left;
+@media screen and (max-width: 767px) {
+  .app-image {
+    margin-top:5%;
+    margin-left: 70px;
+    width:90%;
+  }
+  .app-title {
+    margin-top:15px;
+    text-align: center;
 
-  width:60%;
-}
-.app-title {
-  margin-top:80px;
-  text-align: center;
+    color:#000000;
+    font-family: raleway;
+    font-size: 34px;
+    padding: 10px;
+  }
+  .app-paragraph {
+    margin-top: 10px;
+    text-align: center;
 
-  color:#000000;
-  font-family: raleway;
-  font-size: 36px;
-  font-weight: bold;
-  padding: 10px;
-}
-.app-paragraph {
-  margin-top: 10%;
-  text-align: center;
-
-  color:#000000;
-  font-family: raleway;
-  font-size: 34px;
-  font-weight: bold;
+    color:#000000;
+    font-family: raleway;
+    font-size: 28px;
+  }
+  .app-body {
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -11,48 +11,93 @@ class/id {
   //Style
 }
 */
+@media (min-width: 992px) {
+  .close {
+    color: #000000;
+    font-size: 24px;
+    opacity: 1;
+  }
+  .submit {
+    left:50%;
+    margin-left: -35px;
+    position: absolute;
+  }
+  .register-body > form > .row {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    text-align: center;
+  }
+  .popup-body {
+    left: 50%;
+    margin-left:-157px;
+    margin-top:-30vh;
+    position: absolute;
+    top:50%;
 
-.close {
-  color: #000000;
-  font-size: 24px;
-  opacity: 1;
-}
-.submit {
-  left:50%;
-  margin-left: -35px;
-  position: absolute;
-}
-.register-body > form > .row {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 4px;
-  text-align: center;
-}
-.popup-body {
-  left: 50%;
-  margin-left:-157px;
-  margin-top:-30vh;
-  position: absolute;
-  top:50%;
 
-  
-  height: 55vh;
-  width:25%;
+    height: 55vh;
+    width:25%;
+  }
+  .popup-header {
+    padding: 2px;
+    text-align: center;
+  }
+  :required:focus {
+    border: 1px solid red;
+    outline: none;
+  }
+  #inputFirstName, #inputLastName {
+    width: 45%;
+  }
+  #inputFirstName {
+    float: left;
+  }
+  #inputLastName {
+    float: right;
+  }
 }
-.popup-header {
-  padding: 2px;
-  text-align: center;
-}
-:required:focus {
-  border: 1px solid red;
-  outline: none;
-}
-#inputFirstName, #inputLastName {
-  width: 45%;
-}
-#inputFirstName {
-  float: left;
-}
-#inputLastName {
-  float: right;
+@media screen and (max-width: 767px) {
+  .close {
+    color: #000000;
+    font-size: 24px;
+    opacity: 1;
+  }
+  .submit {
+    left:50%;
+    margin-left: -35px;
+    position: absolute;
+  }
+  .register-body {
+    margin-top: 20%;
+  }
+  .register-body > form > .row {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    text-align: center;
+  }
+  .popup-body {
+    height:100vh;
+    width:100%;
+    border-radius: none;
+  }
+  .popup-header {
+    padding: 2px;
+    text-align: center;
+  }
+  :required:focus {
+    border: 1px solid red;
+    outline: none;
+  }
+  #inputFirstName, #inputLastName {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #inputFirstName {
+    float: left;
+  }
+  #inputLastName {
+    float: right;
+  }
 }

@@ -14,37 +14,67 @@ class/id {
   //Style
 }
 */
-.anywhere > .container {
+@media (min-width: 992px) {
+  .anywhere-image {
+    float:left;
+    margin-left: 15%;
 
-  border-top:5px solid #8becff;
+    width:25%;
+  }
+  .anywhere-body {
+    float:right;
+
+    width:60%;
+  }
+  .anywhere-title {
+    margin-top:80px;
+    text-align: center;
+
+    color:#000000;
+    font-family: raleway;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .anywhere-paragraph {
+    margin-top: 10%;
+    text-align: center;
+
+    color:#000000;
+    font-family: raleway;
+    font-size: 34px;
+    font-weight: bold;
+  }
 }
-.anywhere-image {
-  float:left;
-  margin-left: 15%;
 
-  width:25%;
-}
-.anywhere-body {
-  float:right;
+@media screen and (max-width: 767px) {
+  .anywhere-image {
+    margin-top:5px;
+    margin-left: 15%;
+    width:75%;
+  }
+  .anywhere-body {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .anywhere-title {
+    margin-top:30px;
+    text-align: center;
 
-  width:60%;
-}
-.anywhere-title {
-  margin-top:80px;
-  text-align: center;
+    color:#000000;
+    font-family: raleway;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .anywhere-paragraph {
+    margin-top: 18px;
+    text-align: center;
 
-  color:#000000;
-  font-family: raleway;
-  font-size: 36px;
-  font-weight: bold;
-  padding: 10px;
-}
-.anywhere-paragraph {
-  margin-top: 10%;
-  text-align: center;
-
-  color:#000000;
-  font-family: raleway;
-  font-size: 34px;
-  font-weight: bold;
+    color:#000000;
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: bold;
+  }
 }
